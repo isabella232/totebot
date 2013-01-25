@@ -12,4 +12,4 @@ module.exports = (robot) ->
     #res.writeHead 204, { 'Content-Length': 0 }
     #res.end()
 
-    res.send("Scout #{data.severity} - #{data.server_name} on host #{data.server_hostname} #{data.lifecycle}ed - #{data.plugin_name} - #{data.title} - Current value #{data.metric_name}=#{data.metric_value} - Details: #{data.url}")
+    res.end("Scout #{data.severity} - #{data.server_name} on host #{data.server_hostname} #{data.lifecycle}ed - #{data.plugin_name} - #{data.title} - Current value #{data.metric_name}=#{data.metric_value} - Details: #{data.url}")
