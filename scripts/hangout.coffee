@@ -5,8 +5,6 @@ function randomString(length) {
     return result;
 }
 
-hangout_url = 'https://plus.google.com/hangouts/_/#{ randomString(40) }?authuser=0&hl=en'
-
 module.exports = (robot) ->
   robot.hear /(hangout|hang out|hang)/i, (msg) ->
-    msg.send "I hear you want a hangout. Try this: #{ hangout_url }"
+    msg.send "I hear you want a hangout. Try this: https://plus.google.com/hangouts/_/#{ randomString(40) }?authuser=0&hl=en"
