@@ -2,9 +2,9 @@ module.exports = (robot) ->
 
   robot.router.post "/hubot/scoutapp", (req, res) ->
 
-    #room = "#NPR_APPS"
+    room = "#NPR_APPS"
 
-    data = JSON.parse req.body.payload
+    data = JSON.parse req.body.payload.toString).trim()
 
     data_string = "Scout #{data.severity} - #{data.server_name} on host #{data.server_hostname} #{data.lifecycle}ed - #{data.plugin_name} - #{data.title} - Current value #{data.metric_name}=#{data.metric_value} - Details: #{data.url}"
 
