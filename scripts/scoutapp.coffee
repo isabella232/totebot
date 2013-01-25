@@ -11,5 +11,5 @@ module.exports = (robot) ->
     robot.messageRoom room, data_string
     robot.messageRoom room, data.sparkline_url if data.sparkline_url
 
-    res.write("Womp.")
+    res.writeHead 204, { 'Content-Length': 0 }
     res.end()
