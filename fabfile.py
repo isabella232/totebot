@@ -132,6 +132,7 @@ def deploy(remote='origin'):
     _confirm_branch()
     if env.get('deploy_to_servers', False):
         checkout_latest(remote)
+    install_requirements()
     restart_init()
 
 """

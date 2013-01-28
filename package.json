@@ -17,7 +17,8 @@
   "dependencies": {
     "hubot": "2.3.5",
     "hubot-irc": ">=0.1.0",
-    "optparse": "1.0.3"
+    "optparse": "1.0.3",
+    "randomstring": ">=0.0.1"
   },
 
   "engines": {
