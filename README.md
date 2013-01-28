@@ -33,5 +33,3 @@ fab production master deploy
 ```
 
 We don't have a staging environment yet. I'll get on that soon, Brian.
-
-Meanwhile, check out [this handy info page.] (http://50.112.24.190/hubot/info)

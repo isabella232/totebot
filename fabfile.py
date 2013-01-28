@@ -26,7 +26,7 @@ Environments
 def production():
     env.settings = 'production'
     env.s3_buckets = ['apps.npr.org', 'apps2.npr.org']
-    env.hosts = ['50.112.24.190']
+    env.hosts = [os.environ.get('HUBOT_IRC_IP')]
 
 def staging():
     env.settings = 'staging'
