@@ -130,8 +130,7 @@ def deploy(remote='origin'):
     require('branch', provided_by=[stable, master, branch])
 
     _confirm_branch()
-    if env.get('deploy_to_servers', False):
-        checkout_latest(remote)
+    checkout_latest(remote)
     install_requirements()
     restart_init()
 
