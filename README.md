@@ -2,10 +2,10 @@
 
 Derived from the ubiquitous NPR tote bag, the totebot follows our IRC room on Grove.io and helps us set up chats, monitor our servers, and pick us up when we're down.
 
-Thanks to the Los Angeles Times Data Desk and their copyboy project.
+Thanks to the [Los Angeles Times Data Desk](http://datadesk.latimes.com/) and their [copyboy project](https://github.com/datadesk/copyboy).
 
 ## Local development
-Make sure you have coffee install globally. Most problems will involve not having a coffee executable within your path.
+Make sure you have coffee installed globally. Many problems involve not having the coffee executable within your path.
 ```
 sudo npm install coffee-script -g
 ```
