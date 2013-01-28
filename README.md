@@ -17,6 +17,7 @@ npm install
 
 Export the proper environment variables. Talk to Jeremy or Chris about these values.
 ```
+export KEY_FILENAME='~/.ssh/nprapps/nprapps.pem'
 export PORT=9001
 export HUBOT_IRC_NICK='irc_nick'
 export HUBOT_IRC_NICKSERV_PASSWORD='nickserv_password'
