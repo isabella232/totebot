@@ -19,6 +19,7 @@ Export the proper environment variables. Talk to Jeremy or Chris about these val
 ```
 export KEY_FILENAME='~/.ssh/nprapps/nprapps.pem'
 export PORT=9001
+export HUBOT_IRC_IP='10.20.30.40'
 export HUBOT_IRC_NICK='irc_nick'
 export HUBOT_IRC_NICKSERV_PASSWORD='nickserv_password'
 export HUBOT_IRC_PASSWORD='irc_password'
