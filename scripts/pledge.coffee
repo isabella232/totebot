@@ -8,5 +8,4 @@ antics = [
 
 module.exports = (robot) ->
   robot.hear /(promise|pledge|support|gift|bequest|bequeath|donate|membership)/i, (msg) ->
-    msg.send "Coffee is for pledgers!"
     msg.send msg.random antics
